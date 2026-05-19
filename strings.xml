@@ -1,0 +1,10 @@
+<resources>
+    <!-- Nombre del proyecto que aparece instalado en el móvil -->
+    <string name="app_name">HelloWorld</string>
+
+    <!-- Texto que sirve como guía dentro del campo de escritura -->
+    <string name="escribe_mensaje">Escribe un mensaje</string>
+
+    <!-- Etiqueta visible sobre el botón de acción -->
+    <string name="enviar">Enviar</string>
+</resources>

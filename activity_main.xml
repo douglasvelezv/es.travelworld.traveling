@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Contenedor raíz: Organiza los bloques de forma vertical (uno encima de otro) -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <!-- Primer bloque: Contenedor horizontal que agrupa la entrada de texto y el botón -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:orientation="horizontal">
+
+        <!-- EditText: Espacio para escribir el mensaje -->
+        <!-- weight="1" hace que ocupe todo el ancho sobrante del contenedor horizontal -->
+        <EditText
+            android:id="@+id/edittext_mensaje"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:layout_weight="1"
+            android:background="#ececec"
+            android:hint="@string/escribe_mensaje"
+            android:importantForAutofill="no"
+            android:inputType="text"
+            android:minHeight="48dp"
+            android:padding="10dp" />
+
+        <!-- Button: Botón para ejecutar la acción de envío -->
+        <Button
+            android:id="@+id/button_enviar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:backgroundTint="#444444"
+            android:minHeight="48dp"
+            android:text="@string/enviar"
+            android:textColor="#ffffff"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <!-- Segundo bloque: RelativeLayout que sirve de fondo y centra el mensaje inferior -->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#f2f2f2">
+
+        <!-- TextView: Muestra el texto central (nombre de la app) -->
+        <!-- layout_centerInParent coloca el texto exactamente en el medio del RelativeLayout -->
+        <TextView
+            android:id="@+id/textview_mensaje"
+            style="@style/Base.TextAppearance.AppCompat.Large"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="@string/app_name" />
+    </RelativeLayout>
+
+</LinearLayout>
