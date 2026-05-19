@@ -26,9 +26,8 @@ Aplicación Android nativa desarrollada en **Kotlin** como parte de una práctic
 
 | Pantalla inicial | Mensaje cambiado | Efecto al presionar |
 |:----------------:|:----------------:|:-------------------:|
-| (Añade aquí tu captura) | (Añade aquí tu captura) | (Añade aquí tu captura) |
+| <img width="274" height="489" alt="image" src="https://github.com/user-attachments/assets/0e86ea2a-56bf-4c22-930c-c4446f7d0542" />| <img width="274" height="489" alt="image" src="https://github.com/user-attachments/assets/edb4b121-73f4-4d0d-8826-89c46a546200" /> | <img width="274" height="489" alt="image" src="https://github.com/user-attachments/assets/827cc623-94d4-46ec-83da-0bd21a42c3fa" />
 
-> 💡 *Puedes generar capturas desde el emulador de Android Studio o desde tu dispositivo.*
 
 ---
 
