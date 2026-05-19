@@ -68,17 +68,13 @@ git clone https://github.com/douglasvelezv/es.travelworld.traveling.git
 ## 📂 Estructura del proyecto
 
 es.travelworld.traveling/
-
-es.travelworld.traveling/
 ├── MainActivity.kt               # Controlador: lógica de clic y toque
-├── res/
-│   ├── layout/
-│   │   └── activity_main.xml     # Vista: interfaz de usuario
-│   ├── values/
-│   │   ├── strings.xml           # Textos (nombre app, etiquetas)
-│   │   └── themes.xml            # Tema personalizado (Theme.Traveling)
-│   └── ...
-└── ...
+└── res/
+    ├── layout/
+    │   └── activity_main.xml     # Vista: interfaz de usuario
+    └── values/
+        ├── strings.xml           # Textos (nombre app, etiquetas)
+        └── themes.xml            # Tema personalizado (Theme.Traveling)
 
 ## Este repositorio ha sido creado siguiendo las instrucciones de la práctica:
 
