@@ -1,6 +1,6 @@
 # Traveling ✈️
 
-Aplicación Android nativa desarrollada en **Kotlin** como parte de una práctica de iniciación. Permite al usuario escribir un mensaje y visualizarlo en el centro de la pantalla, con una animación de color en el botón y el texto al presionar.
+Una aplicación Android sencilla desarrollada en **Kotlin** como parte de una práctica de iniciación. La idea es simple: el usuario escribe un mensaje, pulsa un botón y el texto aparece centrado en pantalla. Además, el botón y el texto reaccionan visualmente al ser presionados, cambiando de color momentáneamente.
 
 ![Android](https://img.shields.io/badge/Android-11.0+-green.svg)
 ![Kotlin](https://img.shields.io/badge/Kotlin-1.5+-purple.svg)
@@ -8,26 +8,25 @@ Aplicación Android nativa desarrollada en **Kotlin** como parte de una práctic
 
 ---
 
-## 📱 Características
+## 📱 ¿Qué hace la app?
 
-- **Campo de texto interactivo** (`EditText`) para escribir cualquier mensaje.
-- **Botón "Enviar"** que:
-  - Al hacer clic → muestra el mensaje en el centro de la pantalla.
-  - Al presionar (sin soltar) → cambia su color de fondo a `#0D7B8A` y el texto central al mismo tono.
-  - Al soltar → vuelve a los colores originales.
-- **Diseño limpio y adaptable**:
-  - Parte superior (20%): entrada de texto + botón.
-  - Parte inferior (80%): mensaje centrado sobre fondo gris claro.
-- **Soporte del 83% de dispositivos Android** (según datos de septiembre 2021).
+- Tiene un **campo de texto** (`EditText`) donde puedes escribir lo que quieras.
+- Un **botón "Enviar"** que:
+  - Al hacer clic → muestra tu mensaje en el centro de la pantalla.
+  - Al mantenerlo presionado → el botón y el texto del centro cambian a un color azul verdoso (`#0D7B8A`).
+  - Al soltar → todo vuelve a su apariencia original.
+- La pantalla está dividida en dos zonas:
+  - **Parte superior (20%):** campo de texto y botón.
+  - **Parte inferior (80%):** área gris clara donde aparece el mensaje centrado.
+- Compatible con el **83% de los dispositivos Android** disponibles .
 
 ---
 
 ## 📸 Capturas de pantalla
 
-| Pantalla inicial | Mensaje cambiado | Efecto al presionar |
-|:----------------:|:----------------:|:-------------------:|
-| <img width="352" height="772" alt="image" src="https://i.ibb.co/yB01Q5ZS/1era-Parte.png" />| <img width="352" height="772" alt="image" src="https://i.ibb.co/zWzwHdnr/2nd-Parte.png" /> | <img width="352" height="772" alt="image" src="https://i.ibb.co/Ld4Pkb5f/3era-Parte.png" />
-
+| Pantalla inicial | Mensaje enviado | Efecto al presionar |
+|:----------------:|:---------------:|:-------------------:|
+| <img width="352" height="772" alt="image" src="https://i.ibb.co/yB01Q5ZS/1era-Parte.png" /> | <img width="352" height="772" alt="image" src="https://i.ibb.co/zWzwHdnr/2nd-Parte.png" /> | <img width="352" height="772" alt="image" src="https://i.ibb.co/Ld4Pkb5f/3era-Parte.png" /> |
 
 ---
 
@@ -44,7 +43,7 @@ Aplicación Android nativa desarrollada en **Kotlin** como parte de una práctic
 
 ---
 
-## ⚙️ Guía de instalación y ejecución
+## ⚙️ ¿Cómo ejecutarlo?
 
 Sigue estos pasos para probar la aplicación en tu equipo:
 
@@ -55,17 +54,19 @@ git clone https://github.com/douglasvelezv/es.travelworld.traveling.git
 # 2. Abre Android Studio y selecciona "Open an Existing Project"
 #    (elige la carpeta donde clonaste el repositorio)
 
-# 3. Espera a que Gradle sincronice las dependencias
+# 3. Espera a que Gradle termine de sincronizar las dependencias
 
 # 4. Conecta un dispositivo físico (con depuración USB activada)
-#    o inicia un emulador (API 30 o superior)
+#    o inicia un emulador con API 30 o superior
 
-# 5. Haz clic en el botón verde "Run" (►)
-
+# 5. Pulsa el botón verde "Run" (►) y listo
 ```
+
+---
 
 ## 📂 Estructura del proyecto
 
+```
 es.travelworld.traveling/
 ├── MainActivity.kt               # Controlador: lógica de clic y toque
 └── res/
@@ -74,6 +75,9 @@ es.travelworld.traveling/
     └── values/
         ├── strings.xml           # Textos (nombre app, etiquetas)
         └── themes.xml            # Tema personalizado (Theme.Traveling)
+```
+
+---
 
 ## Este repositorio ha sido creado siguiendo las instrucciones de la práctica:
 
@@ -81,8 +85,9 @@ es.travelworld.traveling/
 
 ✅ Entregado mediante GitHub (enlace del proyecto).
 
-https://github.com/douglasvelezv/es.travelworld.traveling
+🔗 https://github.com/douglasvelezv/es.travelworld.traveling
 
+---
 
 ## 📄 Licencia
 
